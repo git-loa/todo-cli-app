@@ -6,4 +6,7 @@ CREATE TABLE IF NOT EXISTS tasks(
     completed BOOLEAN NOT NULL DEFAULT FALSE,
     created_at DATE DEFAULT CURRENT_DATE,
     due_date DATE
+    category VARCHAR(50)
+    comments TEXT
+    recurrence VARCHAR(20)
 )
